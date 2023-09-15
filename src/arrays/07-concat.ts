@@ -7,7 +7,8 @@ export const items = ["chocolate", "vanilla", "strawberry"];
  */
 
 const items2 = ["rocky road", "neapolitan"];
+const items3 = ["pistachio", "mint chocolate chip"];
 
-let allItems = items.concat(items2);
+let allItems = items.concat(items2, items3);
 
-console.log(allItems); // ["chocolate", "vanilla", "strawberry", "rocky road", "neapolitan"]
+console.log(allItems); // ["chocolate", "vanilla", "strawberry", "rocky road", "neapolitan", "pistachio", "mint chocolate chip"]
