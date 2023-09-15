@@ -1,4 +1,4 @@
-const items = ["apple", "banana", "orange"];
+const items = ["apple", "banana", "orange", "banana"];
 
 /**
  * Index Of
@@ -21,5 +21,9 @@ console.log(strawberryIndex); // -1
 const appleIndexAfterIndex1 = items.indexOf("apple", 1);
 
 console.log(appleIndexAfterIndex1); // -1
+
+const bananaIndexAfterIndex2 = items.indexOf("banana", 2);
+
+console.log(bananaIndexAfterIndex2); // 3
 
 export {};
