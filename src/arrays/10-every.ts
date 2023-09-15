@@ -3,7 +3,7 @@ export const numbers = [1, 2, 3, 4, 5];
 /**
  * Every
  *
- * Returns true if all one element in the array satisfies the provided testing function.
+ * Returns true if all elements in the array satisfies the provided testing function.
  */
 
 const hasOnlyEvenNumbers = numbers.every((number) => number % 2 === 0);
