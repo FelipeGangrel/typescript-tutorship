@@ -1,4 +1,4 @@
-export const items = ["chocolate", "vanilla", "strawberry"];
+const items = ["chocolate", "vanilla", "strawberry"];
 
 /**
  * Concat

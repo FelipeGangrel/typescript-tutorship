@@ -1,4 +1,4 @@
-export const items = ["chocolate", "vanilla", "strawberry"];
+const items = ["chocolate", "vanilla", "strawberry"];
 
 /**
  * Unshift
@@ -13,3 +13,5 @@ console.log(items); // ["rocky road", "chocolate", "vanilla", "strawberry"]
 items.unshift("neapolitan", "mint chocolate chip");
 
 console.log(items); // ["neapolitan", "mint chocolate chip", "rocky road", "chocolate", "vanilla", "strawberry"]
+
+export {};

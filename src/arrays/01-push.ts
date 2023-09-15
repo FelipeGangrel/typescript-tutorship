@@ -1,4 +1,4 @@
-export const items = ["chocolate", "vanilla", "strawberry"];
+const items = ["chocolate", "vanilla", "strawberry"];
 
 /**
  * Push
@@ -14,3 +14,5 @@ length = items.push("neapolitan", "mint chocolate chip");
 
 console.log(items); // ["chocolate", "vanilla", "strawberry", "rocky road", "neapolitan", "mint chocolate chip"]
 console.log(length); // 6
+
+export {};

@@ -1,4 +1,4 @@
-export const items = ["chocolate", "vanilla", "strawberry"];
+const items = ["chocolate", "vanilla", "strawberry"];
 
 /**
  * Join
@@ -9,3 +9,5 @@ export const items = ["chocolate", "vanilla", "strawberry"];
 const allItems = items.join(", ");
 
 console.log(allItems); // chocolate, vanilla, strawberry
+
+export {};

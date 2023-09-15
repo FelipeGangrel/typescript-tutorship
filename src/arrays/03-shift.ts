@@ -1,4 +1,4 @@
-export const items = ["chocolate", "vanilla", "strawberry"];
+const items = ["chocolate", "vanilla", "strawberry"];
 
 /**
  * Shift
@@ -10,3 +10,5 @@ const firstItem = items.shift();
 
 console.log(firstItem); // "chocolate"
 console.log(items); // ["vanilla", "strawberry"]
+
+export {};

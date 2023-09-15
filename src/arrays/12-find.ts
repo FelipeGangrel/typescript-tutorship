@@ -1,4 +1,4 @@
-export const persons = [
+const persons = [
   { name: "John", age: 21 },
   { name: "Peter", age: 31 },
   { name: "Mary", age: 42 },
@@ -17,3 +17,5 @@ console.log(firstWithAgeGreaterThan30); // { name: "Peter", age: 31 }
 const firstWithAgeGreaterThan50 = persons.find((person) => person.age > 50);
 
 console.log(firstWithAgeGreaterThan50); // undefined
+
+export {};

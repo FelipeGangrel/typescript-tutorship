@@ -1,4 +1,4 @@
-export const numbers = [1, 2, 3, 4, 5];
+const numbers = [1, 2, 3, 4, 5];
 
 /**
  * Some
@@ -27,3 +27,5 @@ export const persons = [
 const hasMinor = persons.some((person) => person.age < 18);
 
 console.log(hasMinor); // true
+
+export {};

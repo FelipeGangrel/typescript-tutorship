@@ -1,4 +1,4 @@
-export const items = ["chocolate", "vanilla", "strawberry"];
+const items = ["chocolate", "vanilla", "strawberry"];
 
 /**
  * Pop
@@ -10,3 +10,5 @@ const lastItem = items.pop();
 
 console.log(lastItem); // "strawberry"
 console.log(items); // ["chocolate", "vanilla"]
+
+export {};

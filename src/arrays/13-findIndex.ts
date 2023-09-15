@@ -1,4 +1,4 @@
-export const items = ["apple", "banana", "orange"];
+const items = ["apple", "banana", "orange"];
 
 /**
  * Find Index
@@ -17,3 +17,5 @@ console.log(bananaIndex); // 1
 const strawberryIndex = items.findIndex((item) => item === "strawberry");
 
 console.log(strawberryIndex); // -1
+
+export {};

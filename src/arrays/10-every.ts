@@ -1,4 +1,4 @@
-export const numbers = [1, 2, 3, 4, 5];
+const numbers = [1, 2, 3, 4, 5];
 
 /**
  * Every
@@ -23,3 +23,5 @@ export const persons = [
 const areAllAdults = persons.every((person) => person.age >= 18);
 
 console.log(areAllAdults); // false
+
+export {};

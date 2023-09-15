@@ -1,4 +1,4 @@
-export const items = ["apple", "banana", "orange"];
+const items = ["apple", "banana", "orange"];
 
 /**
  * Includes
@@ -17,3 +17,5 @@ console.log(hasPineapple); // false
 const hasAppleAfterIndex1 = items.includes("apple", 1);
 
 console.log(hasAppleAfterIndex1); // false
+
+export {};

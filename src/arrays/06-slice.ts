@@ -35,3 +35,5 @@ console.log(lastTwoItems); // ["vanilla", "strawberry"]
 const middleItem = items.slice(1, 2);
 
 console.log(middleItem); // ["vanilla"]
+
+export {};

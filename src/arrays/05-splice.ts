@@ -1,4 +1,4 @@
-export const items = ["chocolate", "vanilla", "strawberry"];
+const items = ["chocolate", "vanilla", "strawberry"];
 
 /**
  * Splice
@@ -50,3 +50,5 @@ console.log(items); // ["rocky road", "chocolate", "vanilla", "strawberry"]
 items.splice(1, 1, "cookies and cream");
 
 console.log(items); // ["rocky road", "cookies and cream", "vanilla", "strawberry"]
+
+export {};
