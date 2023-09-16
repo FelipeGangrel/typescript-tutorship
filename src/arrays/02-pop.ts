@@ -6,9 +6,9 @@ const items = ["chocolate", "vanilla", "strawberry"];
  * Removes the last element from an array and returns that element. This method changes the length of the array.
  */
 
-const lastItem = items.pop();
+const removedIte = items.pop();
 
-console.log(lastItem); // "strawberry"
+console.log(removedIte); // "strawberry"
 console.log(items); // ["chocolate", "vanilla"]
 
 export {};
