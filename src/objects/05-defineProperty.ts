@@ -1,4 +1,9 @@
-const person = {
+type Person = {
+  name: string;
+  age?: number;
+};
+
+const person: Person = {
   name: "John",
   age: 30,
 };
@@ -31,6 +36,41 @@ Object.defineProperty(person, "city", {
   value: "New York",
   enumerable: true,
 });
+
+console.log(person); // { name: "John", age: 32, city: "New York" }
+
+/**
+ * To make the property read-only, you have to set the writable property to false.
+ * If you try to change the value of a read-only property, you will get an error.
+ */
+Object.defineProperty(person, "name", {
+  writable: false,
+});
+
+try {
+  person.name = "Jane";
+} catch (error: any) {
+  console.log(error.message); // Cannot assign to read only property 'name' of object '#<Object>'
+}
+
+console.log(person); // { name: "John", age: 32, city: "New York" }
+
+/**
+ * To make the property configurable, you have to set the configurable property to true.
+ * If you try to delete a non-configurable property, you will get an error.
+ *
+ * Note: By default, the Object.defineProperty() method defines a property as configurable.
+ * To make the property non-configurable, you have to set the configurable property to false.
+ */
+Object.defineProperty(person, "age", {
+  configurable: false,
+});
+
+try {
+  delete person.age;
+} catch (error: any) {
+  console.log(error.message); // Cannot delete property 'age' of #<Object>
+}
 
 console.log(person); // { name: "John", age: 32, city: "New York" }
 
