@@ -4,12 +4,6 @@
 
 const name = "John";
 
-// We can define a now scope by using curly braces
-{
-  const name = "Mike";
-  console.log(name); // Mike
-}
-
 function doSomething() {
   // we can name variables using names that are already defined in the outer scope
   const name = "Jane";
@@ -24,5 +18,11 @@ function doSomethingElse() {
 }
 
 console.log(doSomethingElse()); // John
+
+// We can define a now scope by using curly braces
+{
+  const name = "Mike";
+  console.log(name); // Mike
+}
 
 export {};
