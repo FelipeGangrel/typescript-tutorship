@@ -12,6 +12,7 @@
 interface Person {
   name: string;
   age: number;
+  getDetails(): string;
 }
 
 class Student implements Person {
@@ -21,6 +22,10 @@ class Student implements Person {
   constructor(name: string, age: number) {
     this.name = name;
     this.age = age;
+  }
+
+  getDetails(): string {
+    return `Student: ${this.name}, ${this.age}`;
   }
 }
 
@@ -45,6 +50,10 @@ class Teacher implements Person, Employee {
     this.name = name;
     this.age = age;
     this.id = id;
+  }
+
+  getDetails(): string {
+    return `Teacher: ${this.name}, ${this.age}, ${this.id}`;
   }
 }
 
