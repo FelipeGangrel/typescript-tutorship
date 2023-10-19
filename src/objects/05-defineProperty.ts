@@ -37,7 +37,7 @@ Object.defineProperty(person, "city", {
   enumerable: true,
 });
 
-console.log(person); // { name: "John", age: 32, city: "New York" }
+console.log('enumerable: ', person); // { name: "John", age: 32, city: "New York" }
 
 /**
  * To make the property read-only, you have to set the writable property to false.
