@@ -15,3 +15,13 @@ export type UserWithPurchases = User & {
   purchases: Purchase[];
   purchasesTotalAmount: number;
 };
+
+export type Category = {
+  id: number;
+  name: string;
+  parentId: number | null;
+};
+
+export type CategoryTree = Category & {
+  children: CategoryTree[];
+};

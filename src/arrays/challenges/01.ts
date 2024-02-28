@@ -1,5 +1,3 @@
-import { purchases, users } from "./data";
-
 /**
  * 1. Create a function that returns the total amount (sum) of purchases
  * made bv a user.
@@ -23,4 +21,10 @@ import { purchases, users } from "./data";
 /**
  * 4. Create a function that returns an array of objects from the type
  * UserWithPurchases (see types/index.ts).
+ */
+
+/**
+ * 5 - Create a function thw returns an array of objects from the type
+ * CategoryTree (see types/index.ts) and start the tree from the root
+ * categories (categories that have no parent).
  */
