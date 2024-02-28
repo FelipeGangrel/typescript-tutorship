@@ -27,4 +27,12 @@ const personWithAddressUsingSpread = { ...person, ...address };
 
 console.log(personWithAddressUsingSpread); // { name: "John", age: 30, hobbies: ["Sports", "Cooking"], street: "Main St", city: "Boston" }
 
+const pet = {
+  nickname: 'Lola',
+  type: 'dog'
+}
+
+Object.assign(pet, {age: 2}, {name: 'besta de guerra phyrexiana do planeta Amenoa'})
+console.log(pet)
+
 export {};
