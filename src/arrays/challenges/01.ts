@@ -28,3 +28,25 @@
  * CategoryTree (see types/index.ts) and start the tree from the root
  * categories (categories that have no parent).
  */
+
+/**
+ * 6 - Create a function that receives the id of a product and return an object containing:
+ *
+ * Id
+ * Name
+ * Price
+ * Category
+ * And the categories tree (from the root category to the category of the product)
+ *
+ * Example:
+ *
+ * getProduct(3)
+ *
+ * {
+ *  id: 3,
+ *  name: "Playstation 5",
+ *  price: 4600,
+ *  category: "Eletronics",
+ *  categoriesTree: ["Eletronics", "Video Games"]
+ * }
+ */
