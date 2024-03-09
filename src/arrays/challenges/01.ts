@@ -46,7 +46,7 @@
  *  id: 3,
  *  name: "Playstation 5",
  *  price: 4600,
- *  category: "Eletronics",
- *  categoriesTree: ["Eletronics", "Video Games"]
+ *  category: "Game console",
+ *  categoriesTree: ["Electronics", "Gaming", "Game console"]
  * }
  */
