@@ -25,3 +25,10 @@ export type Category = {
 export type CategoryTree = Category & {
   children: CategoryTree[];
 };
+
+export type Product = {
+  id: number;
+  name: string;
+  price: number;
+  categoryId: number;
+};
